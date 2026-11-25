@@ -35,7 +35,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest -v
+          python -n pytest -v
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
